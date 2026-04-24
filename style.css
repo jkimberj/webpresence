@@ -52,9 +52,13 @@ gap:40px;
 align-items:center;
 }
 
-.profile{
-width:200px;
-border-radius:6px;
+.profile {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
 footer{
@@ -64,3 +68,5 @@ margin-top:40px;
 font-size:14px;
 color:#777;
 }
+
+
